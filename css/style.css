@@ -1,0 +1,231 @@
+              @font-face {
+                  font-family: myGothamFont;
+                  src: url("../font/1746-font.woff");
+              }
+              
+              * {
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+              }
+              
+              .section-1 {
+                  background: url('https://mail.google.com/mail/u/0?ui=2&ik=9caed37825&attid=0.1&permmsgid=msg-f:1709155904057746429&th=17b8243d3f1fa3fd&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-8B2zMWfdoD2lR4VlipxfQ2Knm7JD7BxUEN7JKj4uOaItAT3aZNbg9AzSI2IlITxidl_WZSR_vEmde9h-yeAOzuEeU_V9aSpuR89SAo2jOyNvv2BZfVky9UyI&disp=emb&realattid=ii_kssuthdv0')no-repeat center center;
+                  -webkit-background-size: cover;
+                  -moz-background-size: cover;
+                  -o-background-size: cover;
+                  background-size: cover;
+                  width: 100%;
+                  height: 100vh;
+              }
+              
+              .clr {
+                  clear: both;
+              }
+              
+              .font-fm {
+                  font-family: myGothamFont;
+              }
+              
+              .font-size-28px {
+                  font-size: 28px;
+                  line-height: 21px;
+              }
+              
+              .font-size-12px {
+                  font-size: 12px;
+                  line-height: 18px;
+              }
+              
+              a {
+                  color: #333;
+                  /* padding: 3rem; */
+                  text-decoration: none;
+              }
+              
+              .navbar-item:hover {
+                  background: #6f7681;
+                  border-radius: 15px;
+              }
+              
+              .container {
+                  margin: auto;
+                  max-width: 100%;
+                  overflow: auto;
+                  padding: 0 20px;
+              }
+              
+              .navbar {
+                  color: #fff;
+                  overflow: auto;
+                  font-size: 20px;
+              }
+              
+              .models ul li:hover {
+                  background-color: #ffffff;
+              }
+              
+              .navbar a {
+                  color: #fff;
+              }
+              
+              .logo {
+                  float: left;
+                  width: 10vw;
+                  margin-top: 35px;
+              }
+              
+              .models {
+                  float: left;
+                  width: 50vw;
+                  margin: auto;
+                  margin-left: 10vw;
+              }
+              
+              .settings {
+                  font-size: 18px;
+                  float: right;
+                  width: 25vw;
+              }
+              
+              .model-3 {
+                  color: white;
+                  text-align: center;
+                  padding: 50px;
+                  font-size: 28px;
+              }
+              
+              .navbar ul {
+                  list-style: none;
+                  float: right;
+              }
+              
+              .navbar ul li {
+                  float: left;
+              }
+              
+              .navbar ul li a {
+                  display: block;
+                  padding: 20px;
+                  text-align: center;
+              }
+              
+              .side-bar li::before {
+                  content: "|";
+                  color: white;
+                  padding-left: 8px;
+                  padding-right: 4px;
+              }
+              
+              .navbar-item1 {
+                  opacity: 0.2;
+              }
+              
+              .navbar-item1:hover {
+                  color: white;
+                  opacity: 1;
+                  font-size: 20px;
+              }
+              
+              .footer {
+                  position: absolute;
+                  width: 50vw;
+                  bottom: 100px;
+                  right: 210px;
+              }
+              
+              .navbar-2 ul li {
+                  float: left;
+                  list-style: none;
+              }
+              
+              .navbar-2 ul li a {
+                  display: block;
+                  padding: 20px;
+                  text-align: center;
+              }
+              
+              .navbar-item-2 {
+                  color: white;
+              }
+              
+              #thr {
+                  background: transparent;
+                  border: 2px solid white;
+                  padding: 7px;
+                  border-radius: 10px;
+                  margin-top: 30%;
+              }
+              
+              #thr:hover {
+                  background: white;
+                  color: black;
+              }
+              /* ////////////////////////////////////////////////////////////////////////////////// */
+              /* Section 2 */
+              /* .section-2 {
+          background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/ba4f4fe9-5c46-48c2-ad03-a5c7bf68f30c/bvlatuR/std/2880x1800/model_3_safety_hero')
+          no-repeat ce;
+      } */
+              
+              .section-2 {
+                  width: 100%;
+                  height: 100vh;
+                  background: white;
+              }
+              
+              .left-sec-2 {
+                  float: left;
+                  width: 25%;
+                  height: 100vh;
+                  color: white;
+              }
+              
+              .right-sec-2 {
+                  float: right;
+                  width: 75%;
+                  height: 100vh;
+                  background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/ba4f4fe9-5c46-48c2-ad03-a5c7bf68f30c/bvlatuR/std/2880x1800/model_3_safety_hero') no-repeat center center/cover;
+              }
+              
+              .header {
+                  color: black;
+                  font-size: 28px;
+              }
+              
+              .text {
+                  font-size: 20px;
+                  line-height: 21px;
+                  color: #393c41;
+              }
+              
+              #btn-1 {
+                  background: transparent;
+                  border: 2px solid white;
+                  padding: 7px;
+                  border-radius: 10px;
+                  margin-top: 80%;
+                  float: right;
+                  font-size: 20px;
+              }
+              
+              #tbn-1:hover {
+                  background: white;
+                  color: black;
+              }
+              
+              #btn-2 {
+                  background: transparent;
+                  border: 2px solid white;
+                  padding: 7px;
+                  border-radius: 10px;
+                  margin-top: 72%;
+                  float: center;
+                  font-size: 20px;
+                  padding-left: 150px;
+              }
+              
+              #tbn-2:hover {
+                  background: white;
+                  color: black;
+              }
